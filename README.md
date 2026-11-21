@@ -42,13 +42,13 @@ Add the crate to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-htj2k = "0.1.0"
+htj2k_rs = "0.1.0"
 ```
 
 ## 🚀 Usage
 
 ```rust
-use htj2k::to_htj2k;
+use htj2k_rs::to_htj2k;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     to_htj2k("input.dcm")?;
