@@ -42,7 +42,7 @@ Add the crate to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-htj2k_rs = "0.1.0"
+htj2k_rs = "0.1.1"
 ```
 
 ## 🚀 Usage
